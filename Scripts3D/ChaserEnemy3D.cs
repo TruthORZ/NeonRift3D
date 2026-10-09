@@ -9,11 +9,11 @@ public partial class ChaserEnemy3D : Enemy3D
 	protected override void ConfigureStats()
 	{
 		// OUR CHASER STATS: 38 HP; 2.0 units/s; 14 HP contact damage; 100 points.
-		MaxHealth = 38f;
+		MaxHealth = 100f;
 
-		MoveSpeed = 2.0f;
+		MoveSpeed = 0.5f;
 
-		ContactDamage = 14f;
+		ContactDamage = 40f;
 
 		Points = 100;
 	}
